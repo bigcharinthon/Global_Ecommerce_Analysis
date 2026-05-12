@@ -1,4 +1,4 @@
---business quetion: ค่าส่งในแต่ละประเทศส่งผลต่อกำไรอย่างไร
+--Business Quetion: ค่าส่งในแต่ละประเทศส่งผลต่อกำไรอย่างไร
 SELECT 
 	Country,
 	sum(Profit) as totalprofit,
