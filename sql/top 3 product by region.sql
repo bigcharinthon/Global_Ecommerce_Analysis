@@ -1,4 +1,4 @@
---business quetion:  ในแต่ละ Region สินค้าตัวไหนขายดีที่สุด 3 อันดับ
+--Business Quetion:  ในแต่ละ Region สินค้าตัวไหนขายดีที่สุด 3 อันดับ
 with rank_region as (
 	SELECT
 		region,
