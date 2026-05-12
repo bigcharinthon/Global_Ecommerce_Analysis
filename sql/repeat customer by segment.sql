@@ -1,4 +1,4 @@
--- Business Question: ลูกค้าซื้อซ้ำในแต่ละ Segment มีจำนวนเท่าไร
+--Business Question: ลูกค้าซื้อซ้ำในแต่ละ Segment มีจำนวนเท่าไร
 WITH repeat_customers AS (
     SELECT 
         Customer_Name,
