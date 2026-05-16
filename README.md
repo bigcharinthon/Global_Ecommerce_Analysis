@@ -8,11 +8,17 @@
 ## 📊 Dashboard Overview
 ภาพรวมของ Dashboard (แทรกรูป screenshot แต่ละหน้า)
 <p align="center">
-  <img src="images/Dashboradoverview.png" width="900">
+  <img src="images/overview_dashboard.png" width="900">
 </p>
-- Page 1: Revenue Trends
-- Page 2: Product Performance
-- Page 3: Customer Insights
+- Page 1: overview_dashboard
+<p align="center">
+  <img src="images/Customers & Order Analysis.png" width="900">
+</p>
+- Page 2: Customers & Order Analysis
+<p align="center">
+  <img src="images/Shipping Cost % Profit Analysis.png" width="900">
+</p>
+- Page 3: Shipping Cost % Profit Analysis
 
 ---
 
