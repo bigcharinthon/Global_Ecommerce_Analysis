@@ -6,7 +6,6 @@
 ---
 
 ## 📊 Dashboard Overview
-ภาพรวมของ Dashboard (แทรกรูป screenshot แต่ละหน้า)
 - Page 1: overview_dashboard
 <p align="center">
   <img src="images/overview_dashboard.png" width="900">
@@ -25,20 +24,57 @@
 ---
 
 ## 🔑 Key KPIs
-แบ่งเป็นหมวดหมู่เพื่อให้อ่านง่าย:
-- **Revenue Metrics**: Total Revenue, Monthly Growth
-- **Product Metrics**: Top Products, Product Returns
-- **Customer Metrics**: New vs Returning Customers, Retention Rate
-- **Other Metrics**: Promotion Impact, Seasonality
+**Revenue Metrics**
+  - Total Revenue
+  - Product Revenue
+  - Revenue New
+  - Revenue Repeat
+  - Profit Metrics
+  - Total Profit
+  - Profit Margin
+**Customer Metrics**
+  - Total Customers
+  - New Customers
+  - Repeat Customers
+  - Repeat Customer Rate
+  - Product Metrics
+  - Top Product Category
+  - Top Product Revenue
+**Shipping Metrics**
+  - Total Shipping
+  - Average Shipping Cost
+**Efficiency Metrics**
+  - Average Order Value (AOV)
+
 
 ---
 
 ## ❓ Business Questions & Insights
-เขียนคำถามที่ Dashboard ตอบได้ พร้อม Insight สั้น ๆ
+<p align="center">
+  <img src="images/overview_dashboard.png" width="900">
+</p>
 
-- **Revenue Trend** → รายได้เพิ่มขึ้นต่อเนื่องใน Q3, ลดลงใน Q4 เพราะ Seasonality  
-- **Top Products** → Product A ทำยอดสูงสุด แต่ Return Rate สูง → ต้องปรับปรุงคุณภาพ  
-- **Customer Retention** → ลูกค้าใหม่เพิ่มขึ้น แต่ retention ต่ำ → เสนอ loyalty program  
+--
+
+**Business Question**: ลูกค้าซื้อซ้ำมีความสัมพันธ์กับยอดขายอย่างไร   
+**Insight**: ในช่วงต้นปีของทุกปี ยอดขายและจำนวนลูกค้าซื้อซ้ำลดลงพร้อมกัน สะท้อนถึงผลของฤดูกาล (seasonality)
+**Possible Explanation**: ในไตรมาสแรกของแต่ละปี ลูกค้ามักซื้อซ้ำน้อยลง ส่งผลให้ยอดขายลดลงตาม
+**Business Implication**: ควรออกโปรโมชั่นที่สอดคล้องกับฤดูกาล เพื่อกระตุ้นยอดขายและเพิ่มความเสถียรของรายได้ตลอดทั้งปี
+
+--
+
+**Business Question**: กำไรสอดค้ลองกับรายได้ต่อเดือนหรือไม่
+**Insight**:  ในช่วง2ปีแรก กำไรยังไม่คงที่เริ่มมาคงที่ในช่วงปี2025 อาจจะเนื่องมาจากยังเป็นช่วงแรกธรุกิจทำให้ยังไม่เกิดการstableของธรุกิจ
+**Possible Explanation**: เนื่องจากมีลูกค้ากลับมาซื้อซ้ำแค่25% ธุระกิจยังพึ่งพาลูกค้าใหม่เยอะเกิดไปทำให้กำไรยังไม่มีหมั่นคง
+**Business Implication**: จัดโปรโมชั่นสำหรับการดึงลูกค้าหรือมีการสะสมคะแนนสำหรับทุกorderแลกของรางวัลเพื่อเพิ่มความloyaltyของลูกค้า
+
+--
+
+
+
+
+
+
 
 ---
 
@@ -50,7 +86,7 @@
 ---
 
 ## 📂 Dataset Details
-- Source: [เช่น Kaggle / Internal Data]  
+- Source: kaggle
 - Rows: xxx  
 - Columns: xxx  
 - Key Fields: Date, Product, Revenue, CustomerID  
