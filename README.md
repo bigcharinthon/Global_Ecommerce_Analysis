@@ -19,7 +19,7 @@
 
 - Page 3: Shipping Cost % Profit Analysis
 <p align="center">
-  <img src="images/Shipping_Cost%_Profit_Analysis.png" width="900">
+  <img src="images/Shipping_Cost_Profit_Analysis.png" width="900">
 </p>
 
 ---
