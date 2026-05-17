@@ -207,7 +207,7 @@ This project analyzes global e-commerce performance focusing on revenue, custome
 ## ⚙️ How to Use
 - เปิดไฟล์ .pbix ใน Power BI
 - เลือกหน้า Dashboard ตามหมวด
-- ใช้ filter (เช่น Date, Product Category) เพื่อเจาะลึกข้อมู
+- ใช้ filter (เช่น Date, Product Category) เพื่อเจาะลึกข้อมูล
 
 ---
 
