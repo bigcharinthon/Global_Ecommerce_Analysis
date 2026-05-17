@@ -24,27 +24,33 @@
 ---
 
 ## 🔑 Key KPIs
-**Revenue Metrics**
-  - Total Revenue
-  - Product Revenue
-  - Revenue New
-  - Revenue Repeat
-  - Profit Metrics
-  - Total Profit
-  - Profit Margin
-**Customer Metrics**
-  - Total Customers
-  - New Customers
-  - Repeat Customers
-  - Repeat Customer Rate
-  - Product Metrics
-  - Top Product Category
-  - Top Product Revenue
-**Shipping Metrics**
-  - Total Shipping
-  - Average Shipping Cost
-**Efficiency Metrics**
-  - Average Order Value (AOV)
+### 💰 Revenue Metrics
+- Total Revenue  
+- Product Revenue  
+- Revenue New  
+- Revenue Repeat  
+
+### 💵 Profit Metrics
+- Total Profit  
+- Profit Margin  
+
+### 👥 Customer Metrics
+- Total Customers  
+- New Customers  
+- Repeat Customers  
+- Repeat Customer Rate  
+
+### 📦 Product Metrics
+- Top Product Category  
+- Top Product Revenue  
+
+### 🚚 Shipping Metrics
+- Total Shipping  
+- Average Shipping Cost  
+
+### ⚙️ Efficiency Metrics
+- Average Order Value (AOV)
+
 
 
 ---
