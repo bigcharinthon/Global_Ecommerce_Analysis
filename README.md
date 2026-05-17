@@ -1,7 +1,7 @@
 # Project Title: Global Ecommerce Analysis
 
 ## 📌 Executive Summary
-โปรเจคนี้วิเคราะห์ พฤติกรรมของลูกค้าในแต่ละsegmentว่ามีพฤติกรรมแบบใด เพื่อให้ธุรกิจสามารถตัดสินใจทำโปรโมชั่นหรือลดต้นทุนเพื่อสร้างกำไรมากขึ้น datasetนำมาจากkaggle Global Ecommerce 
+This project analyzes global e-commerce performance focusing on revenue, customer loyalty, and shipping efficiency using Power BI and SQL.
 
 ---
 
