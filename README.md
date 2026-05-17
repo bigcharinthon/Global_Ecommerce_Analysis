@@ -182,8 +182,7 @@
 
 ---
 
-## 🚀 Future Work
-- เพิ่ม Customer Segmentation  
+## 🚀 Future Work 
 - ทดลอง Predictive Modeling (เช่น Revenue Forecast)  
 - เพิ่ม KPI ใหม่ เช่น Customer Lifetime Value  
 
