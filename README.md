@@ -167,9 +167,11 @@
 
 ## 📂 Dataset Details
 - Source: kaggle
-- Rows: xxx  
-- Columns: xxx  
-- Key Fields: Date, Product, Revenue, CustomerID  
+- Rows: 2,001  
+- Columns: 15 
+- Key Fields:
+    Order_ID,Order_Date,Customer_Name,Customer_Segment,Country,Region,Product_Category,Product_Name,
+    Quantity,Unit_Price,Discount,Total_Sale,Shipping_Cost,Profit,Payment_Method
 
 ---
 
