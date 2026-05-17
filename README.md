@@ -218,8 +218,22 @@ This project analyzes global e-commerce performance focusing on revenue, custome
 ---
 
 ## 📎 Files Included
-- `/power bi/Global_Econmersc.pbix` → Power BI file  
-- `/sql/Segment_country.sql`,shipping_cost_impact.sql, → SQL scripts  
-- `/data/raw.csv` → Dataset  
-- `/images/` → Dashboard screenshots  
+- `/power bi/Global_Ecommerce.pbix` → Power BI dashboard file  
+- `/sql/` → SQL scripts used for data preparation  
+  - `Segment_country.sql`  
+  - `repeat_customer_by_segment.sql`  
+  - `shipping_cost_impact.sql`  
+  - `top3_product_by_region.sql`  
+- `/data/` → Datasets used for analysis  
+  - `global_ecommerce_sales.csv`  
+  - `repeat_customer_by_segment.csv`  
+  - `segment_country.csv`  
+  - `shipping_cost_impact.csv`  
+  - `top3_product_by_region.csv`  
+- `/images/` → Dashboard screenshots
+  - `Customer&Order Analysis.png`
+  - `Dashboard_overview.png`
+  - `Data_model.png`
+  - `Shipping_Cost_Profit_Analysis.png`
+  - `Workflow.jpg`
 
