@@ -195,7 +195,24 @@ This project analyzes global e-commerce performance focusing on revenue, custome
 4. **Visualization:** สร้าง dashboard 3 หน้า (Overview, Customer & Order, Shipping & Profit)  
 5. **Insight Generation:** วิเคราะห์ KPI และเขียน Business Questions & Insights ลงใน README
 
---- 
+---
+
+## 🧩 Data Model
+
+<p align="center">
+  <img src="images/Data_model.png" width="900">
+</p>
+
+- **Fact Table:** `global_ecommerce_sales`  
+- **Dimension Tables:**  
+  - `Dim_Date`  
+  - `Dim_Region`  
+  - `segment_country`  
+  - `shipping_cost_impact`
+  - `repeat_customer_by_segment`
+  - `Measure Table` (สำหรับ KPI และ Calculated Fields)
+
+---
 
 ## 📈 Business Impact
 - ช่วยวิเคราะห์ช่วงเวลาเหมาะสมในการทำโปรโมชั่น  
