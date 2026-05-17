@@ -175,6 +175,26 @@ This project analyzes global e-commerce performance focusing on revenue, custome
 
 ---
 
+## 🧰 Data Tools
+- **SQL (SQLite)** → ใช้ในการ query และเตรียมข้อมูล  
+- **Power BI** → ใช้สร้าง dashboard และวิเคราะห์เชิง visualization  
+- **Excel / CSV** → ใช้ตรวจสอบและจัดรูปแบบข้อมูลเบื้องต้น  
+- **DAX** → ใช้สร้าง measure และ KPI ใน Power BI  
+
+---
+
+## 🔄 Data Flow
+<p align="center">
+  <img src="images/workflow.jpg" width="900">
+</p>
+1. **Data Collection:** ดึงข้อมูลจาก Kaggle dataset  
+2. **Data Preparation:** ทำความสะอาดข้อมูลด้วย SQL (เช่น ลบ missing values, ปรับ format วันที่)  
+3. **Data Modeling:** สร้าง star schema ใน Power BI (Fact: global_ecommerce_sales, Dimension: Date, Region, Product, Customer)  
+4. **Visualization:** สร้าง dashboard 3 หน้า (Overview, Customer & Order, Shipping & Profit)  
+5. **Insight Generation:** วิเคราะห์ KPI และเขียน Business Questions & Insights ลงใน README
+
+--- 
+
 ## 📈 Business Impact
 - ช่วยวิเคราะห์ช่วงเวลาเหมาะสมในการทำโปรโมชั่น  
 - ระบุสินค้าที่ควรปรับปรุงคุณภาพ  
