@@ -184,9 +184,11 @@ This project analyzes global e-commerce performance focusing on revenue, custome
 ---
 
 ## 🔄 Data Flow
+
 <p align="center">
   <img src="images/workflow.jpg" width="900">
 </p>
+
 1. **Data Collection:** ดึงข้อมูลจาก Kaggle dataset  
 2. **Data Preparation:** ทำความสะอาดข้อมูลด้วย SQL (เช่น ลบ missing values, ปรับ format วันที่)  
 3. **Data Modeling:** สร้าง star schema ใน Power BI (Fact: global_ecommerce_sales, Dimension: Date, Region, Product, Customer)  
