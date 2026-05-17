@@ -197,20 +197,6 @@ This project analyzes global e-commerce performance focusing on revenue, custome
 
 ---
 
-### 🧩 Business Question
-ค่าส่งมีผลกับกำไรสุทธิหรือไม่
-
-### 💡 Insight
-ค่าส่งมีความสัมพันธ์เชิงบวกกับกำไรสุทธิ เพราะสินค้าที่ขายเยอะมักมีค่าส่งสูงและกำไรสูงตาม
-
-### 🔍 Possible Explanation
-สินค้าที่ขายเยอะมีต้นทุนต่อหน่วยต่ำ แม้ค่าส่งรวมสูง แต่กำไรยังสูง
-
-### 🚀 Business Implication
-ธุรกิจควรปรับโครงสร้างค่าขนส่ง โดยลดต้นทุนสินค้าหลัก และปรับค่าขนส่งสินค้าขายต่
-
----
-
 ## 📈 Business Impact
 - ช่วยวิเคราะห์ช่วงเวลาเหมาะสมในการทำโปรโมชั่น  
 - ระบุสินค้าที่ควรปรับปรุงคุณภาพ  
@@ -218,7 +204,7 @@ This project analyzes global e-commerce performance focusing on revenue, custome
 
 ---
 
-##⚙️ How to Use
+## ⚙️ How to Use
 - เปิดไฟล์ .pbix ใน Power BI
 - เลือกหน้า Dashboard ตามหมวด
 - ใช้ filter (เช่น Date, Product Category) เพื่อเจาะลึกข้อมู
@@ -232,8 +218,8 @@ This project analyzes global e-commerce performance focusing on revenue, custome
 ---
 
 ## 📎 Files Included
-- `/dashboard/project.pbix` → Power BI file  
-- `/sql/queries.sql` → SQL scripts  
+- `/power bi/Global_Econmersc.pbix` → Power BI file  
+- `/sql/Segment_country.sql`,shipping_cost_impact.sql, → SQL scripts  
 - `/data/raw.csv` → Dataset  
 - `/images/` → Dashboard screenshots  
 
