@@ -21,6 +21,59 @@ This project analyzes global e-commerce performance focusing on revenue, custome
   <img src="images/Shipping_Cost_Profit_Analysis.png" width="900">
 </p>
 
+
+
+
+
+---
+
+## 📂 Dataset Details
+- Source: kaggle
+- Rows: 2,001  
+- Columns: 15 
+- Key Fields:
+    Order_ID,Order_Date,Customer_Name,Customer_Segment,Country,Region,Product_Category,Product_Name,
+    Quantity,Unit_Price,Discount,Total_Sale,Shipping_Cost,Profit,Payment_Method
+
+---
+
+## 🧰 Data Tools
+- **SQL (SQLite)** → ใช้ในการ query และเตรียมข้อมูล  
+- **Power BI** → ใช้สร้าง dashboard และวิเคราะห์เชิง visualization  
+- **Excel / CSV** → ใช้ตรวจสอบและจัดรูปแบบข้อมูลเบื้องต้น  
+- **DAX** → ใช้สร้าง measure และ KPI ใน Power BI  
+
+---
+
+## 🔄 Data Flow
+
+<p align="center">
+  <img src="images/workflow.jpg" width="900">
+</p>
+
+1. **Data Collection:** ดึงข้อมูลจาก Kaggle dataset  
+2. **Data Preparation:** ทำความสะอาดข้อมูลด้วย SQL (เช่น ลบ missing values, ปรับ format วันที่)  
+3. **Data Modeling:** สร้าง star schema ใน Power BI (Fact: global_ecommerce_sales, Dimension: Date, Region, Product, Customer)  
+4. **Visualization:** สร้าง dashboard 3 หน้า (Overview, Customer & Order, Shipping & Profit)  
+5. **Insight Generation:** วิเคราะห์ KPI และเขียน Business Questions & Insights ลงใน README
+
+---
+
+## 🧩 Data Model
+
+<p align="center">
+  <img src="images/Data_model.png" width="900">
+</p>
+
+- **Fact Table:** `global_ecommerce_sales`  
+- **Dimension Tables:**  
+  - `Dim_Date`  
+  - `Dim_Region`  
+  - `segment_country`  
+  - `shipping_cost_impact`
+  - `repeat_customer_by_segment`
+  - `Measure Table` (สำหรับ KPI และ Calculated Fields)
+
 ---
 
 ## 🔑 Key KPIs
@@ -158,66 +211,17 @@ This project analyzes global e-commerce performance focusing on revenue, custome
 
 ---
 
-## ⚙️ How to Use
-1. เปิดไฟล์ `.pbix` ใน Power BI  
-2. เลือกหน้า Dashboard ตามหมวด  
-3. ใช้ filter (เช่น Date, Product Category) เพื่อเจาะลึกข้อมูล  
-
----
-
-## 📂 Dataset Details
-- Source: kaggle
-- Rows: 2,001  
-- Columns: 15 
-- Key Fields:
-    Order_ID,Order_Date,Customer_Name,Customer_Segment,Country,Region,Product_Category,Product_Name,
-    Quantity,Unit_Price,Discount,Total_Sale,Shipping_Cost,Profit,Payment_Method
-
----
-
-## 🧰 Data Tools
-- **SQL (SQLite)** → ใช้ในการ query และเตรียมข้อมูล  
-- **Power BI** → ใช้สร้าง dashboard และวิเคราะห์เชิง visualization  
-- **Excel / CSV** → ใช้ตรวจสอบและจัดรูปแบบข้อมูลเบื้องต้น  
-- **DAX** → ใช้สร้าง measure และ KPI ใน Power BI  
-
----
-
-## 🔄 Data Flow
-
-<p align="center">
-  <img src="images/workflow.jpg" width="900">
-</p>
-
-1. **Data Collection:** ดึงข้อมูลจาก Kaggle dataset  
-2. **Data Preparation:** ทำความสะอาดข้อมูลด้วย SQL (เช่น ลบ missing values, ปรับ format วันที่)  
-3. **Data Modeling:** สร้าง star schema ใน Power BI (Fact: global_ecommerce_sales, Dimension: Date, Region, Product, Customer)  
-4. **Visualization:** สร้าง dashboard 3 หน้า (Overview, Customer & Order, Shipping & Profit)  
-5. **Insight Generation:** วิเคราะห์ KPI และเขียน Business Questions & Insights ลงใน README
-
----
-
-## 🧩 Data Model
-
-<p align="center">
-  <img src="images/Data_model.png" width="900">
-</p>
-
-- **Fact Table:** `global_ecommerce_sales`  
-- **Dimension Tables:**  
-  - `Dim_Date`  
-  - `Dim_Region`  
-  - `segment_country`  
-  - `shipping_cost_impact`
-  - `repeat_customer_by_segment`
-  - `Measure Table` (สำหรับ KPI และ Calculated Fields)
-
----
-
 ## 📈 Business Impact
 - ช่วยวิเคราะห์ช่วงเวลาเหมาะสมในการทำโปรโมชั่น  
 - ระบุสินค้าที่ควรปรับปรุงคุณภาพ  
 - เสนอแนวทางเพิ่ม retention ของลูกค้า  
+
+---
+
+##⚙️ How to Use
+- เปิดไฟล์ .pbix ใน Power BI
+- เลือกหน้า Dashboard ตามหมวด
+- ใช้ filter (เช่น Date, Product Category) เพื่อเจาะลึกข้อมู
 
 ---
 
