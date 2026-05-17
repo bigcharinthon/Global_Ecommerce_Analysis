@@ -110,7 +110,7 @@ This project analyzes global e-commerce performance focusing on revenue, custome
 
 ## ❓ Business Questions & Insights
 <p align="center">
-  <img src="images/overview_dashboard.png" width="900">
+  <img src="images/Dashboard_overview.png" width="900">
 </p>
 
 ---
